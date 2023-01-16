@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        caption{
+            font-family:'Courier New', Courier, monospace;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-shadow: 1.2px 1.2px 1.2px #000000;
+        }
+
+        table,th,td {
+         border:1px solid black; 
+     border-collapse:collapse; 
+     border-radius: 10px;
+     /* padding:20px; */
+     margin: 0 auto;
+     width: 50%;
+     margin-top:100px;
+     font-size: 20px;
+      
+}
+
+.number {
+    width:10%;
+}
+
+thead{
+    text-align:left;
+}
+th,td{
+      text-align:center;
+}
+
+.big{
+    width:45%;
+    text-align:left;
+}
+
+.medium{
+    width:35%;
+    text-align: left;
+}
+
+.small{
+    width:20%;
+    text-align: left;
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Student Details</caption>
+
+        <thead>
+            <tr>
+                <th class="number">#</th>
+                <th  class="big">Student Name</th>
+                <th class="small">Student Id</th>
+                <th class="medium">Address</th>
+            </tr>
+        </thead>
+
+
+            <tbody>
+                <tr>
+                    <td  class="number">1</td>
+                    <td   class="big">Mitu Akhter</td>
+                    <td class="small">115</td>
+                    <td class="medium" style="text-align:center;">Barishal</td>
+                     
+                </tr>
+
+                <td  class="number">2</td>
+                    <td class="big">Ema Akhter</td>
+                    <td class="small">119</td>
+                    <td class="medium" style="text-align:center;">Dhaka</td>  
+                </tr>
+ 
+            </tbody>
+      
+    </table>
+</body>
+</html>
